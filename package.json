@@ -1,0 +1,23 @@
+{
+  "name": "cursospa-jsvanilla",
+  "version": "1.0.0",
+  "description": "SPA con JavaScript Vanilla",
+  "main": "index.js",
+  "dependencies": {
+    "html-webpack-plugin": "^4.4.1",
+    "webpack-cli": "^3.3.12",
+    "webpack": "^4.44.1",
+    "webpack-dev-server": "^3.11.0",
+    "babel-loader": "^8.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development"
+  },
+  "keywords": [
+    "spa"
+  ],
+  "author": "Elkin",
+  "license": "MIT"
+}
