@@ -10,7 +10,10 @@
     "webpack-dev-server": "^3.11.0",
     "babel-loader": "^8.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "copy-webpack-plugin": "^6.3.0"
+  },
   "scripts": {
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development"
