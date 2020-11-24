@@ -138,7 +138,6 @@ header.darkTheme a {
 
 .cards-characters--container.darkTheme .card-character {
   background: linear-gradient(45deg, teal 20%, #222);
-  color: #eee;
 }
 
 .card-character h3 {

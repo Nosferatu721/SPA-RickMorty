@@ -1,12 +1,19 @@
 const Header = () => {
   const view = `
-    <div class="Header-main">
-      <div class="Header-logo">
-        <h1><a href="/">100Tyfy.co</a></h1>
-      </div>
-      <div class="Header-nav">
-        <a href="#/about/">About</a>
-      </div>
+    <div class="container">
+      <nav class="nav">
+        <div class="logo"><a href="/">100Tyfy.co</a></div>
+        <div class="menu">
+          <ul>
+            <li><a href="#/about/">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="darkMode">
+          <input type="checkbox" class="switch" id="switch">
+          <label for="switch" class="lbl"></label>
+        </div>
+      </nav>
     </div>
   `;
   return view;
