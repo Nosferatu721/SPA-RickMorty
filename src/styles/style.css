@@ -32,6 +32,7 @@ li {
 
 a {
   text-decoration: none;
+  font-weight: 400;
 }
 
 header {
@@ -144,9 +145,58 @@ header.darkTheme a {
 .card-character h3 {
   text-align: center;
   color: #333;
+  font-weight: 400;
 }
 
 .card-character figure img {
   width: 100%;
   border-radius: 5px;
+}
+
+.card-character figure img:hover {
+  filter: drop-shadow(0 0 4px black);
+}
+
+.character-info--container {
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+  animation: opa 0.5s;
+}
+
+@keyframes opa {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.character-photo {
+  border-bottom: 4px solid teal;
+  box-shadow: 0 0 5px #aaa;
+}
+
+.character-photo h2 {
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.character-photo img {
+  transition: 0.3s ease-out;
+}
+
+.character-photo img:hover {
+  transform: scale(1.2);
+  border-radius: 20%;
+}
+
+.characters-description h3 {
+  font-weight: 400;
+  margin: 1.5rem 0;
 }
